@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T12:18:28.852Z",
+  "updatedAt": "2026-11-12T14:19:10.871Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -21,6 +21,13 @@
       "hash": "a34ac7aa5efbaa0accf1ea046ac7475ba8eeb566c4b6360803384e83dd36c888",
       "checkedAt": "2026-11-12T03:46:54.688Z",
       "output": "Person[name=Alice, age=30]\nAlice\n30"
+    },
+    "tips/java/switch-expressions": {
+      "id": "b-e0b47203e75c40c2",
+      "status": "passed",
+      "hash": "d0abf5667b76801a539d58777709bf43b019b318d79be5957f0acda72879d556",
+      "checkedAt": "2026-11-12T14:18:46.108Z",
+      "output": "Tuesday"
     },
     "tips/kotlin/safe-calls-with": {
       "id": "b-93abb590a1234ccd",
