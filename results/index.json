@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T03:47:24.635Z",
+  "updatedAt": "2026-11-12T03:51:08.305Z",
   "tips": {
     "tips/java/records": {
       "id": "b-94da599be0a34353",
@@ -28,6 +28,13 @@
       "hash": "654b0394dcaa97ce61871a6a3e21021c4411cc2e0bb72170df1127414b58006a",
       "checkedAt": "2026-11-12T03:47:04.976Z",
       "output": "t: hello"
+    },
+    "tips/sql/select-with-where-a2": {
+      "id": "b-ad3407f4a81d481f",
+      "status": "passed",
+      "hash": "2135b23df538a7c7c11cfea8f2d80382e4000c62b9b06e10dada5c3a005d7f89",
+      "checkedAt": "2026-11-12T03:50:54.849Z",
+      "output": "John|NY"
     }
   }
 }
