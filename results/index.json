@@ -1,6 +1,13 @@
 {
-  "updatedAt": "2026-11-12T11:31:18.080Z",
+  "updatedAt": "2026-11-12T12:18:28.852Z",
   "tips": {
+    "tips/algorithms/big-o-notation": {
+      "id": "b-fa82820c68f54047",
+      "status": "passed",
+      "hash": "6618ed6e280e88398375f979802ecedf3d267b0a0af4b5f76c0deb8799f38e3b",
+      "checkedAt": "2026-11-12T12:18:15.238Z",
+      "output": "True\nTrue"
+    },
     "tips/java/local-variable-type-inference-with-var": {
       "id": "b-bbb95417fc4943fc",
       "status": "passed",
