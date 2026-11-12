@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-12T03:47:02.029Z",
+  "updatedAt": "2026-11-12T03:47:24.635Z",
   "tips": {
     "tips/java/records": {
       "id": "b-94da599be0a34353",
       "status": "passed",
       "hash": "a34ac7aa5efbaa0accf1ea046ac7475ba8eeb566c4b6360803384e83dd36c888",
-      "checkedAt": "2026-11-12T03:46:33.787Z",
+      "checkedAt": "2026-11-12T03:46:54.688Z",
       "output": "Person[name=Alice, age=30]\nAlice\n30"
     },
     "tips/kotlin/safe-calls-with": {
@@ -21,6 +21,13 @@
       "hash": "9f8c86b4da62e7d5b90488c98d78cb1f6f8fedd5b27abf91fb471d68fb55e338",
       "checkedAt": "2026-11-12T03:46:43.156Z",
       "output": "4\nnull"
+    },
+    "tips/rust/ownership": {
+      "id": "b-c1626d4359504270",
+      "status": "passed",
+      "hash": "654b0394dcaa97ce61871a6a3e21021c4411cc2e0bb72170df1127414b58006a",
+      "checkedAt": "2026-11-12T03:47:04.976Z",
+      "output": "t: hello"
     }
   }
 }
