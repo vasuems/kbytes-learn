@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T03:19:47.815Z",
+  "updatedAt": "2026-11-12T03:46:41.258Z",
   "tips": {
     "tips/kotlin/safe-calls-with": {
       "id": "b-93abb590a1234ccd",
@@ -7,6 +7,13 @@
       "hash": "4e316071b1b2a85cdf0a78795729635e7056232209405ac6a08bb2a1d308a9b9",
       "checkedAt": "2026-11-12T03:19:22.970Z",
       "output": "null"
+    },
+    "tips/kotlin/safe-calls-with-a2": {
+      "id": "b-348b11974b55474a",
+      "status": "passed",
+      "hash": "9f8c86b4da62e7d5b90488c98d78cb1f6f8fedd5b27abf91fb471d68fb55e338",
+      "checkedAt": "2026-11-12T03:46:16.679Z",
+      "output": "4\nnull"
     }
   }
 }
