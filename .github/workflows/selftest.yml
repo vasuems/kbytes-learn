@@ -1,0 +1,28 @@
+name: Runner self-test
+
+# Checks the runner itself: known-good tips must pass, and wrong output, endless loops,
+# network access and writes outside /tmp must all fail.
+on:
+  push:
+    branches: [main]
+    paths: ["runner/**", ".github/workflows/**"]
+  pull_request:
+    paths: ["runner/**", ".github/workflows/**"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  selftest:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Run self-test tips
+        run: node runner/run.mjs --selftest

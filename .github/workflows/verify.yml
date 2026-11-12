@@ -1,0 +1,84 @@
+name: Verify tips
+
+# Runs the code of new or changed tips and records whether it prints the expected output.
+# The content API reads results/index.json to decide which tips go live in the app.
+on:
+  push:
+    branches: [main]
+    paths: ["tips/**"]
+  pull_request:
+    paths: ["tips/**"]
+  schedule:
+    - cron: "23 3 * * *"   # daily retry of anything that hit an infrastructure error
+  workflow_dispatch:
+    inputs:
+      all:
+        description: Re-check every tip
+        type: boolean
+        default: false
+
+permissions: {}
+
+jobs:
+  run:
+    # Tip code is untrusted. This job has no secrets and a read-only token, and every tip runs in
+    # a container with no network (see runner/run.mjs).
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Run tips
+        run: >
+          node runner/run.mjs --out results.json
+          ${{ inputs.all && '--all' || '' }}
+          ${{ github.event_name == 'pull_request' && '--fail-on-failure' || '' }}
+      - uses: actions/upload-artifact@v4
+        if: github.event_name != 'pull_request'
+        with:
+          name: results
+          path: results.json
+          retention-days: 7
+
+  record:
+    # Only reads the results JSON (never runs tip code) and commits results/index.json.
+    needs: run
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    concurrency:
+      group: record-results
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - uses: actions/download-artifact@v4
+        with:
+          name: results
+          path: ${{ runner.temp }}/results
+      - name: Merge results
+        run: node runner/record.mjs "$RUNNER_TEMP/results/results.json"
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add results/index.json
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "Record tip results"
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then exit 0; fi
+            git pull --rebase origin main
+          done
+          exit 1
