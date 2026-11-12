@@ -1,4 +1,12 @@
 {
-  "updatedAt": null,
-  "tips": {}
+  "updatedAt": "2026-11-12T03:19:47.815Z",
+  "tips": {
+    "tips/kotlin/safe-calls-with": {
+      "id": "b-93abb590a1234ccd",
+      "status": "passed",
+      "hash": "4e316071b1b2a85cdf0a78795729635e7056232209405ac6a08bb2a1d308a9b9",
+      "checkedAt": "2026-11-12T03:19:22.970Z",
+      "output": "null"
+    }
+  }
 }
