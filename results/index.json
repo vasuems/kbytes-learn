@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T15:18:42.900Z",
+  "updatedAt": "2026-11-13T18:19:17.028Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -28,6 +28,13 @@
       "hash": "9d1d33b2aa99c89863c00ad12dffe548c815e87a19ff2af5de22c550141de2d4",
       "checkedAt": "2026-11-13T10:18:27.037Z",
       "output": "120"
+    },
+    "tips/algorithms/stacks-vs-queues": {
+      "id": "b-5d84850719cb45b8",
+      "status": "passed",
+      "hash": "b2ecb7acb6986f7438a4666b2befd5d0542e9335145bdd0ce52bd258e1a40898",
+      "checkedAt": "2026-11-13T18:18:40.198Z",
+      "output": "c\nb\nx\ny"
     },
     "tips/java/local-variable-type-inference-with-var": {
       "id": "b-bbb95417fc4943fc",
@@ -84,6 +91,14 @@
       "hash": "654b0394dcaa97ce61871a6a3e21021c4411cc2e0bb72170df1127414b58006a",
       "checkedAt": "2026-11-12T03:47:04.976Z",
       "output": "t: hello"
+    },
+    "tips/rust/result-and-the-operator": {
+      "id": "b-537ee9cf83a844c8",
+      "status": "failed",
+      "hash": "a092d172c6e16c7e890d33b5a662ce9868d9bac34ef0d5aa4cf5ccbb3e77ce06",
+      "checkedAt": "2026-11-13T18:18:45.173Z",
+      "output": "",
+      "message": "Exit code 1\nerror[E0423]: cannot find function `println` in this scope\n --> /tip/main.rs:8:20\n  |\n8 |         Ok(age) => println(\"You are {}\", age),\n  |                    ^^^^^^^ not found in this scope\n  |\n  = note: a macro named `println` exists in another namespace\nhelp: use `!` to invoke the macro\n  |\n8 |         Ok(age) => println!(\"You are {}\", age),\n  |                           +\n\nerror[E0423]: cannot find function `println` in this scope\n --> /tip/main.rs:9:19\n  |\n9 |         Err(e) => println(\"Error: {}\", e),\n  |                   ^^^^^^^ not found in this scope\n  |\n  = note: a macro named `println` exists in another namespace\nhelp: use `!` to invoke the macro\n  |\n9 |         Err(e) => println!(\"Error: {}\", e),\n  |                          +\n\nerror[E0423]: cannot find function `println` in this scope\n  --> /tip/main.rs:14:20\n   |\n14 |         Ok(age) => println(\"You are {}\", age),\n   |                    ^^^^^^^ not found in this scope\n   |\n   = note: a macro named `println` exists in another namespace\nhelp: use `!` to invoke the macro\n   |\n14 |         Ok(age) => println!(\"You are {}\", age),\n   |                           +\n\nerror[E0423]: cannot find function `println` in this scope\n  --> /tip/main.rs:15:19\n   |\n15 |         Err(e) => println(\"Error: {}\", e),\n   |                   ^^^^^^^ not found in this scope\n   |\n   = note: a macro named `println` exists in another namespace\nhelp: use `!` to invoke the macro\n   |\n15 |         Err(e) => println!(\"Error: {}\", e),\n   |                          +\n\nerror: aborting due to 4 previous errors\n\nFor more information about this error, try `rustc --explain E0423`.\n"
     },
     "tips/sql/select-with-where-a2": {
       "id": "b-ad3407f4a81d481f",
