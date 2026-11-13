@@ -1,0 +1,4 @@
+Some value: Some(10)
+No value: None
+Value: 10
+No value found
