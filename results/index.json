@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T21:18:32.392Z",
+  "updatedAt": "2026-11-13T22:18:18.295Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -35,6 +35,13 @@
       "hash": "b2ecb7acb6986f7438a4666b2befd5d0542e9335145bdd0ce52bd258e1a40898",
       "checkedAt": "2026-11-13T18:18:40.198Z",
       "output": "c\nb\nx\ny"
+    },
+    "tips/algorithms/the-two-pointer-technique": {
+      "id": "b-cb61d3fd510a4b21",
+      "status": "passed",
+      "hash": "7317f67bfb7e18a8f524f2d0f27f56c9eac604318a43083a13bed0a65f32fa14",
+      "checkedAt": "2026-11-13T22:18:03.669Z",
+      "output": "(2, 5)"
     },
     "tips/java/local-variable-type-inference-with-var": {
       "id": "b-bbb95417fc4943fc",
