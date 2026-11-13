@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T01:18:26.549Z",
+  "updatedAt": "2026-11-13T05:18:42.469Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -7,6 +7,13 @@
       "hash": "6618ed6e280e88398375f979802ecedf3d267b0a0af4b5f76c0deb8799f38e3b",
       "checkedAt": "2026-11-12T12:18:15.238Z",
       "output": "True\nTrue"
+    },
+    "tips/algorithms/binary-search-a2": {
+      "id": "b-bac7c522074d4902",
+      "status": "passed",
+      "hash": "5390f513fe106f6618bdc95d90a28c027c46ca073ea09ae39cc88519b3ea402e",
+      "checkedAt": "2026-11-13T05:18:26.210Z",
+      "output": "2\n-1"
     },
     "tips/java/local-variable-type-inference-with-var": {
       "id": "b-bbb95417fc4943fc",
