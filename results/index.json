@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T18:19:17.028Z",
+  "updatedAt": "2026-11-13T21:18:32.392Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -99,6 +99,13 @@
       "checkedAt": "2026-11-13T18:18:45.173Z",
       "output": "",
       "message": "Exit code 1\nerror[E0423]: cannot find function `println` in this scope\n --> /tip/main.rs:8:20\n  |\n8 |         Ok(age) => println(\"You are {}\", age),\n  |                    ^^^^^^^ not found in this scope\n  |\n  = note: a macro named `println` exists in another namespace\nhelp: use `!` to invoke the macro\n  |\n8 |         Ok(age) => println!(\"You are {}\", age),\n  |                           +\n\nerror[E0423]: cannot find function `println` in this scope\n --> /tip/main.rs:9:19\n  |\n9 |         Err(e) => println(\"Error: {}\", e),\n  |                   ^^^^^^^ not found in this scope\n  |\n  = note: a macro named `println` exists in another namespace\nhelp: use `!` to invoke the macro\n  |\n9 |         Err(e) => println!(\"Error: {}\", e),\n  |                          +\n\nerror[E0423]: cannot find function `println` in this scope\n  --> /tip/main.rs:14:20\n   |\n14 |         Ok(age) => println(\"You are {}\", age),\n   |                    ^^^^^^^ not found in this scope\n   |\n   = note: a macro named `println` exists in another namespace\nhelp: use `!` to invoke the macro\n   |\n14 |         Ok(age) => println!(\"You are {}\", age),\n   |                           +\n\nerror[E0423]: cannot find function `println` in this scope\n  --> /tip/main.rs:15:19\n   |\n15 |         Err(e) => println(\"Error: {}\", e),\n   |                   ^^^^^^^ not found in this scope\n   |\n   = note: a macro named `println` exists in another namespace\nhelp: use `!` to invoke the macro\n   |\n15 |         Err(e) => println!(\"Error: {}\", e),\n   |                          +\n\nerror: aborting due to 4 previous errors\n\nFor more information about this error, try `rustc --explain E0423`.\n"
+    },
+    "tips/sql/indexes-a2": {
+      "id": "b-93c5cd6def924eac",
+      "status": "passed",
+      "hash": "6ccf74d59406e051e08dce12b9e0adb86d454c538f39cf86fa4c6783a1180591",
+      "checkedAt": "2026-11-13T21:18:13.874Z",
+      "output": "1|John"
     },
     "tips/sql/select-with-where-a2": {
       "id": "b-ad3407f4a81d481f",
