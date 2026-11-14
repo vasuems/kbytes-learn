@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T03:19:08.168Z",
+  "updatedAt": "2026-11-14T07:18:39.632Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -91,6 +91,14 @@
       "hash": "b6f9cc381305abe38f551af10398f140bfc3fbcf7b69cf93509f2875afd53e98",
       "checkedAt": "2026-11-13T01:18:06.311Z",
       "output": "The length of 'hello' is 5."
+    },
+    "tips/rust/match": {
+      "id": "b-2809ad2790fd47b3",
+      "status": "failed",
+      "hash": "939be47a37c4b53aa3a54898d87a7e1266d096921fa170096bc56788cd369254",
+      "checkedAt": "2026-11-14T07:18:12.139Z",
+      "output": "",
+      "message": "Exit code 1\nerror[E0423]: cannot find function `println` in this scope\n --> /tip/main.rs:4:14\n  |\n4 |         1 => println(\"Monday\"),\n  |              ^^^^^^^ not found in this scope\n  |\n  = note: a macro named `println` exists in another namespace\nhelp: use `!` to invoke the macro\n  |\n4 |         1 => println!(\"Monday\"),\n  |                     +\n\nerror[E0423]: cannot find function `println` in this scope\n --> /tip/main.rs:5:14\n  |\n5 |         2 => println(\"Tuesday\"),\n  |              ^^^^^^^ not found in this scope\n  |\n  = note: a macro named `println` exists in another namespace\nhelp: use `!` to invoke the macro\n  |\n5 |         2 => println!(\"Tuesday\"),\n  |                     +\n\nerror[E0423]: cannot find function `println` in this scope\n --> /tip/main.rs:6:14\n  |\n6 |         _ => println(\"Other day\"),\n  |              ^^^^^^^ not found in this scope\n  |\n  = note: a macro named `println` exists in another namespace\nhelp: use `!` to invoke the macro\n  |\n6 |         _ => println!(\"Other day\"),\n  |                     +\n\nerror: aborting due to 3 previous errors\n\nFor more information about this error, try `rustc --explain E0423`.\n"
     },
     "tips/rust/option": {
       "id": "b-38471618cd3047b1",
