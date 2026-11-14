@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T12:18:33.149Z",
+  "updatedAt": "2026-11-14T14:19:10.667Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -64,6 +64,13 @@
       "checkedAt": "2026-11-12T14:18:46.108Z",
       "output": "Tuesday"
     },
+    "tips/kotlin/data-classes": {
+      "id": "b-aeff3388ebd54240",
+      "status": "passed",
+      "hash": "7249631eb4e6f86f2ca4fead5f50195e17b9ef81482cd1ae4b9919ef4c4381b1",
+      "checkedAt": "2026-11-14T14:18:18.515Z",
+      "output": "true\nUser(name=John, age=30)"
+    },
     "tips/kotlin/safe-calls-with": {
       "id": "b-93abb590a1234ccd",
       "status": "passed",
@@ -93,6 +100,14 @@
       "output": "/tmp\n/tmp\n/tmp\n/tmp",
       "message": "Output differs from expected.txt:\n/tmp\n/home/user\n/tmp"
     },
+    "tips/linux/cd-a3": {
+      "id": "b-937ba512b7ac4116",
+      "status": "failed",
+      "hash": "6213bfc70f3e210904a8f9772ac0b4267d7b0113ce9aa17f0841fcce9b3ad3b2",
+      "checkedAt": "2026-11-14T14:18:33.940Z",
+      "output": "/tmp\n/tmp\n/tmp\n/tmp",
+      "message": "Output differs from expected.txt:\n/tmp\n/home/user\n/tmp"
+    },
     "tips/rust/borrowing": {
       "id": "b-2518f076dce34a97",
       "status": "passed",
@@ -115,6 +130,14 @@
       "checkedAt": "2026-11-14T12:18:16.894Z",
       "output": "",
       "message": "Exit code 1\nerror[E0423]: cannot find function `println` in this scope\n --> /tip/main.rs:4:16\n  |\n4 |         100 => println(\"Perfect!\"),\n  |                ^^^^^^^ not found in this scope\n  |\n  = note: a macro named `println` exists in another namespace\nhelp: use `!` to invoke the macro\n  |\n4 |         100 => println!(\"Perfect!\"),\n  |                       +\n\nerror[E0423]: cannot find function `println` in this scope\n --> /tip/main.rs:5:15\n  |\n5 |         90 => println(\"Great!\"),\n  |               ^^^^^^^ not found in this scope\n  |\n  = note: a macro named `println` exists in another namespace\nhelp: use `!` to invoke the macro\n  |\n5 |         90 => println!(\"Great!\"),\n  |                      +\n\nerror[E0423]: cannot find function `println` in this scope\n --> /tip/main.rs:6:14\n  |\n6 |         _ => println(\"Try again!\"),\n  |              ^^^^^^^ not found in this scope\n  |\n  = note: a macro named `println` exists in another namespace\nhelp: use `!` to invoke the macro\n  |\n6 |         _ => println!(\"Try again!\"),\n  |                     +\n\nerror: aborting due to 3 previous errors\n\nFor more information about this error, try `rustc --explain E0423`.\n"
+    },
+    "tips/rust/match-a3": {
+      "id": "b-1b8ceace38994238",
+      "status": "failed",
+      "hash": "939be47a37c4b53aa3a54898d87a7e1266d096921fa170096bc56788cd369254",
+      "checkedAt": "2026-11-14T14:18:36.392Z",
+      "output": "",
+      "message": "Exit code 1\nerror[E0423]: cannot find function `println` in this scope\n --> /tip/main.rs:4:14\n  |\n4 |         1 => println(\"Monday\"),\n  |              ^^^^^^^ not found in this scope\n  |\n  = note: a macro named `println` exists in another namespace\nhelp: use `!` to invoke the macro\n  |\n4 |         1 => println!(\"Monday\"),\n  |                     +\n\nerror[E0423]: cannot find function `println` in this scope\n --> /tip/main.rs:5:14\n  |\n5 |         2 => println(\"Tuesday\"),\n  |              ^^^^^^^ not found in this scope\n  |\n  = note: a macro named `println` exists in another namespace\nhelp: use `!` to invoke the macro\n  |\n5 |         2 => println!(\"Tuesday\"),\n  |                     +\n\nerror[E0423]: cannot find function `println` in this scope\n --> /tip/main.rs:6:14\n  |\n6 |         _ => println(\"Other day\"),\n  |              ^^^^^^^ not found in this scope\n  |\n  = note: a macro named `println` exists in another namespace\nhelp: use `!` to invoke the macro\n  |\n6 |         _ => println!(\"Other day\"),\n  |                     +\n\nerror: aborting due to 3 previous errors\n\nFor more information about this error, try `rustc --explain E0423`.\n"
     },
     "tips/rust/option": {
       "id": "b-38471618cd3047b1",
