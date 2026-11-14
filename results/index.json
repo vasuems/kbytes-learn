@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T07:18:39.632Z",
+  "updatedAt": "2026-11-14T09:18:21.989Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -84,6 +84,14 @@
       "hash": "441f691cedb91a305aed56e385c9f7cac5ffb8569151bd3439521deb98f6c8dc",
       "checkedAt": "2026-11-14T03:18:32.471Z",
       "output": "Unknown\nJohn"
+    },
+    "tips/linux/cd-a2": {
+      "id": "b-43ad05a27a274758",
+      "status": "failed",
+      "hash": "6213bfc70f3e210904a8f9772ac0b4267d7b0113ce9aa17f0841fcce9b3ad3b2",
+      "checkedAt": "2026-11-14T09:18:09.430Z",
+      "output": "/tmp\n/tmp\n/tmp\n/tmp",
+      "message": "Output differs from expected.txt:\n/tmp\n/home/user\n/tmp"
     },
     "tips/rust/borrowing": {
       "id": "b-2518f076dce34a97",
