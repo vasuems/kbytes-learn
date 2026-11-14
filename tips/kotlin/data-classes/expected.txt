@@ -1,0 +1,2 @@
+true
+User(name=John, age=30)
