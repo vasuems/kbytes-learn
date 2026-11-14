@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T14:19:10.667Z",
+  "updatedAt": "2026-11-14T18:18:45.598Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -91,6 +91,13 @@
       "hash": "441f691cedb91a305aed56e385c9f7cac5ffb8569151bd3439521deb98f6c8dc",
       "checkedAt": "2026-11-14T03:18:32.471Z",
       "output": "Unknown\nJohn"
+    },
+    "tips/kotlin/when-expressions": {
+      "id": "b-4d85c5474aee4773",
+      "status": "passed",
+      "hash": "73e06f237fd5ffc3cb0172a2fb96d2d848901b18776d994a01a5c4de0dba4899",
+      "checkedAt": "2026-11-14T18:18:16.100Z",
+      "output": "two\nother"
     },
     "tips/linux/cd-a2": {
       "id": "b-43ad05a27a274758",
