@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T22:18:18.295Z",
+  "updatedAt": "2026-11-14T03:19:08.168Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -77,6 +77,13 @@
       "hash": "9f8c86b4da62e7d5b90488c98d78cb1f6f8fedd5b27abf91fb471d68fb55e338",
       "checkedAt": "2026-11-12T03:46:43.156Z",
       "output": "4\nnull"
+    },
+    "tips/kotlin/the-elvis-operator": {
+      "id": "b-3265ecfdd9114007",
+      "status": "passed",
+      "hash": "441f691cedb91a305aed56e385c9f7cac5ffb8569151bd3439521deb98f6c8dc",
+      "checkedAt": "2026-11-14T03:18:32.471Z",
+      "output": "Unknown\nJohn"
     },
     "tips/rust/borrowing": {
       "id": "b-2518f076dce34a97",
