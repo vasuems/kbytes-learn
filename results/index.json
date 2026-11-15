@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T06:18:37.604Z",
+  "updatedAt": "2026-11-15T09:18:23.865Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -121,6 +121,14 @@
       "checkedAt": "2026-11-14T14:18:33.940Z",
       "output": "/tmp\n/tmp\n/tmp\n/tmp",
       "message": "Output differs from expected.txt:\n/tmp\n/home/user\n/tmp"
+    },
+    "tips/linux/chmod-a3": {
+      "id": "b-ff8f57e0b1eb4059",
+      "status": "failed",
+      "hash": "11417002ef0bfcf1b5c92b59e38842fd23ecb99751c104e1dfa7f58d1770f6c2",
+      "checkedAt": "2026-11-15T09:18:11.363Z",
+      "output": "-rw------- 1 nobody nogroup 12 Nov 15 09:18 note.txt",
+      "message": "Output differs from expected.txt:\n-rw------- 1 user user 11 Oct 12 14:30 note.txt"
     },
     "tips/rust/borrowing": {
       "id": "b-2518f076dce34a97",
