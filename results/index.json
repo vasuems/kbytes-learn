@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T11:15:49.151Z",
+  "updatedAt": "2026-11-15T17:18:44.508Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -91,6 +91,13 @@
       "hash": "9f8c86b4da62e7d5b90488c98d78cb1f6f8fedd5b27abf91fb471d68fb55e338",
       "checkedAt": "2026-11-12T03:46:43.156Z",
       "output": "4\nnull"
+    },
+    "tips/kotlin/scope-functions-let-and-apply": {
+      "id": "b-799b5c3182d84395",
+      "status": "passed",
+      "hash": "a8a5d873e8b8eedf2069da421394ffba1cc762955319a8559374693194231715",
+      "checkedAt": "2026-11-15T17:18:16.180Z",
+      "output": "John\n30"
     },
     "tips/kotlin/the-elvis-operator": {
       "id": "b-3265ecfdd9114007",
