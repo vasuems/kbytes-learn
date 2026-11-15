@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T02:18:43.218Z",
+  "updatedAt": "2026-11-15T06:18:37.604Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -70,6 +70,13 @@
       "hash": "7249631eb4e6f86f2ca4fead5f50195e17b9ef81482cd1ae4b9919ef4c4381b1",
       "checkedAt": "2026-11-14T14:18:18.515Z",
       "output": "true\nUser(name=John, age=30)"
+    },
+    "tips/kotlin/extension-functions": {
+      "id": "b-4789e8afb3bb4d00",
+      "status": "passed",
+      "hash": "767e09eda69e61f42ce7726f9fe1f1a8fad876568738a1f6a961e1e40287b745",
+      "checkedAt": "2026-11-15T06:18:09.262Z",
+      "output": "Hello World\nKotlin Is Fun"
     },
     "tips/kotlin/safe-calls-with": {
       "id": "b-93abb590a1234ccd",
