@@ -1,0 +1,1 @@
+-rw------- 1 user user 11 Oct 12 14:30 note.txt
