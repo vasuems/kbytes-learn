@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T17:18:44.508Z",
+  "updatedAt": "2026-11-16T02:18:38.807Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -98,6 +98,13 @@
       "hash": "a8a5d873e8b8eedf2069da421394ffba1cc762955319a8559374693194231715",
       "checkedAt": "2026-11-15T17:18:16.180Z",
       "output": "John\n30"
+    },
+    "tips/kotlin/sealed-classes": {
+      "id": "b-bb937d123d5e41c5",
+      "status": "passed",
+      "hash": "42ff0b5fc13f6acb63cdcc8547bd63b43d59af32fda4c923f362608a8e4bda4e",
+      "checkedAt": "2026-11-16T02:18:11.352Z",
+      "output": "Go"
     },
     "tips/kotlin/the-elvis-operator": {
       "id": "b-3265ecfdd9114007",
