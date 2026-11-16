@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T02:18:38.807Z",
+  "updatedAt": "2026-11-16T11:18:37.043Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -231,6 +231,14 @@
       "hash": "2135b23df538a7c7c11cfea8f2d80382e4000c62b9b06e10dada5c3a005d7f89",
       "checkedAt": "2026-11-12T03:50:54.849Z",
       "output": "John|NY"
+    },
+    "tips/sql/transactions": {
+      "id": "b-b22e8b54189549f8",
+      "status": "failed",
+      "hash": "f1410755a1729d7470e9acb4392cbb61355a29bcf162e046aee2ee279b10a011",
+      "checkedAt": "2026-11-16T11:18:21.900Z",
+      "output": "",
+      "message": "Exit code 1\nIncomplete SQL statement at the end: CREATE TABLE accounts (id INTEGER, balance REAL)\nINSERT INTO accounts VALUES (1,\n"
     }
   }
 }
