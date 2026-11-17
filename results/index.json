@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T04:19:02.835Z",
+  "updatedAt": "2026-11-17T06:18:37.729Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -157,6 +157,13 @@
       "hash": "5b91f27dcf2cd0a2bae7990c81fb8101250aab142f584e22d0447a0382c8e90f",
       "checkedAt": "2026-11-17T04:18:24.556Z",
       "output": "Project setup with Cargo\nCreating my_project...\nProject created."
+    },
+    "tips/rust/error-handling": {
+      "id": "b-cf77f2feb6f44447",
+      "status": "passed",
+      "hash": "7fd6a4154ebd4aaa6e0cf79a77d381d0c5948cb37d521165b2381b5bddf88ab8",
+      "checkedAt": "2026-11-17T06:18:17.349Z",
+      "output": "Result: 5\nError: Cannot divide by zero!"
     },
     "tips/rust/iterators": {
       "id": "b-4311fdb0c3274c94",
