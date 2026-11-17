@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T20:18:26.569Z",
+  "updatedAt": "2026-11-17T00:18:43.605Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -246,6 +246,14 @@
       "checkedAt": "2026-11-16T11:18:21.900Z",
       "output": "",
       "message": "Exit code 1\nIncomplete SQL statement at the end: CREATE TABLE accounts (id INTEGER, balance REAL)\nINSERT INTO accounts VALUES (1,\n"
+    },
+    "tips/sql/transactions-a2": {
+      "id": "b-1b1024e4339f47a0",
+      "status": "failed",
+      "hash": "98a343615a14feeb52bb6029040815114556db33cb9f3d959c4dd3eb722e0fe3",
+      "checkedAt": "2026-11-17T00:18:14.696Z",
+      "output": "",
+      "message": "Exit code 1\nTraceback (most recent call last):\n  File \"/runner/sql_harness.py\", line 38, in <module>\n    main(sys.argv[1])\n  File \"/runner/sql_harness.py\", line 27, in main\n    cursor = connection.execute(statement)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nsqlite3.OperationalError: cannot start a transaction within a transaction\n"
     }
   }
 }
