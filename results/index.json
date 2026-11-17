@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T12:07:39.274Z",
+  "updatedAt": "2026-11-17T22:18:46.361Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -158,6 +158,13 @@
       "checkedAt": "2026-11-17T04:18:24.556Z",
       "output": "Project setup with Cargo\nCreating my_project...\nProject created."
     },
+    "tips/rust/closures-a2": {
+      "id": "b-a84a7772ae234653",
+      "status": "passed",
+      "hash": "fc7128488bf89e32a9bdec0c635406942e791baf7ac2fa787340bd4493b19c06",
+      "checkedAt": "2026-11-17T22:18:19.218Z",
+      "output": "6\n8"
+    },
     "tips/rust/error-handling": {
       "id": "b-cf77f2feb6f44447",
       "status": "passed",
@@ -245,6 +252,13 @@
       "hash": "6ccf74d59406e051e08dce12b9e0adb86d454c538f39cf86fa4c6783a1180591",
       "checkedAt": "2026-11-13T21:18:13.874Z",
       "output": "1|John"
+    },
+    "tips/sql/like-patterns": {
+      "id": "b-05d2f88e008046d8",
+      "status": "passed",
+      "hash": "88a3e10d0eb8801af8d1dd59d8dc22f875b6decadefca942db82981feacb9953",
+      "checkedAt": "2026-11-17T22:18:30.339Z",
+      "output": "John\nJoan"
     },
     "tips/sql/select-with-where-a2": {
       "id": "b-ad3407f4a81d481f",
