@@ -1,0 +1,3 @@
+Project setup with Cargo
+Creating my_project...
+Project created.
