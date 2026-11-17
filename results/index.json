@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T00:18:43.605Z",
+  "updatedAt": "2026-11-17T04:19:02.835Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -150,6 +150,13 @@
       "hash": "b6f9cc381305abe38f551af10398f140bfc3fbcf7b69cf93509f2875afd53e98",
       "checkedAt": "2026-11-13T01:18:06.311Z",
       "output": "The length of 'hello' is 5."
+    },
+    "tips/rust/cargo": {
+      "id": "b-02e25222d3774fa0",
+      "status": "passed",
+      "hash": "5b91f27dcf2cd0a2bae7990c81fb8101250aab142f584e22d0447a0382c8e90f",
+      "checkedAt": "2026-11-17T04:18:24.556Z",
+      "output": "Project setup with Cargo\nCreating my_project...\nProject created."
     },
     "tips/rust/iterators": {
       "id": "b-4311fdb0c3274c94",
