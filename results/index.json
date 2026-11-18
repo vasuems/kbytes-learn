@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T13:18:57.255Z",
+  "updatedAt": "2026-11-18T17:18:54.132Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -112,6 +112,13 @@
       "hash": "42ff0b5fc13f6acb63cdcc8547bd63b43d59af32fda4c923f362608a8e4bda4e",
       "checkedAt": "2026-11-16T02:18:11.352Z",
       "output": "Go"
+    },
+    "tips/kotlin/string-templates": {
+      "id": "b-772f0429f3d34026",
+      "status": "passed",
+      "hash": "eaf46e8d12b983f3f7d7a4d48773ad91d13280bc46cbef7c66ec4627a5c3db41",
+      "checkedAt": "2026-11-18T17:18:24.316Z",
+      "output": "My name is John and I am 30 years old\nMy name is JOHN and I am 31 years old"
     },
     "tips/kotlin/the-elvis-operator": {
       "id": "b-3265ecfdd9114007",
