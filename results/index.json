@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T11:58:06.030Z",
+  "updatedAt": "2026-11-18T13:18:57.255Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -178,6 +178,14 @@
       "hash": "7fd6a4154ebd4aaa6e0cf79a77d381d0c5948cb37d521165b2381b5bddf88ab8",
       "checkedAt": "2026-11-17T06:18:17.349Z",
       "output": "Result: 5\nError: Cannot divide by zero!"
+    },
+    "tips/rust/generics": {
+      "id": "b-6a3868ae64e24d2b",
+      "status": "failed",
+      "hash": "2df2cd7ca64c7e29d8602c8db391df181a3ca5ebfba809c8a74b11e1bce47536",
+      "checkedAt": "2026-11-18T13:18:32.747Z",
+      "output": "max of 1 and 2: 2\nmax of 1.0 and 2.0: 2",
+      "message": "Output differs from expected.txt:\nmax of 1 and 2: 2\nmax of 1.0 and 2.0: 2.0"
     },
     "tips/rust/iterators": {
       "id": "b-4311fdb0c3274c94",
