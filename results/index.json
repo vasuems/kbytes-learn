@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T17:18:54.132Z",
+  "updatedAt": "2026-11-18T21:18:39.624Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -193,6 +193,14 @@
       "checkedAt": "2026-11-18T13:18:32.747Z",
       "output": "max of 1 and 2: 2\nmax of 1.0 and 2.0: 2",
       "message": "Output differs from expected.txt:\nmax of 1 and 2: 2\nmax of 1.0 and 2.0: 2.0"
+    },
+    "tips/rust/generics-a2": {
+      "id": "b-7084f244056844bc",
+      "status": "failed",
+      "hash": "502cbabea87b58c19f37df416dd3225dbbf65c844ae6a55da6769bf12631857f",
+      "checkedAt": "2026-11-18T21:18:15.960Z",
+      "output": "",
+      "message": "Exit code 1\nerror[E0277]: `T` doesn't implement `Debug`\n  --> /tip/main.rs:11:28\n   |\n11 |     println!(\"Type: {:?}\", vec);\n   |                     ----   ^^^ `T` cannot be formatted using `{:?}` because it doesn't implement `Debug`\n   |                     |\n   |                     required by this formatting parameter\n   |\n   = note: required for `Vec<T>` to implement `Debug`\n   = note: 1 redundant requirement hidden\n   = note: required for `&Vec<T>` to implement `Debug`\nhelp: consider restricting type parameter `T` with trait `Debug`\n   |\n10 | fn print_type<T: std::fmt::Debug>(vec: &Vec<T>) {\n   |                +++++++++++++++++\n\nerror: aborting due to 1 previous error\n\nFor more information about this error, try `rustc --explain E0277`.\n"
     },
     "tips/rust/iterators": {
       "id": "b-4311fdb0c3274c94",
