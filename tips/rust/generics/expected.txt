@@ -1,0 +1,2 @@
+max of 1 and 2: 2
+max of 1.0 and 2.0: 2.0
