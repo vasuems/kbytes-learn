@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T22:18:46.361Z",
+  "updatedAt": "2026-11-18T01:18:51.208Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -28,6 +28,13 @@
       "hash": "9d1d33b2aa99c89863c00ad12dffe548c815e87a19ff2af5de22c550141de2d4",
       "checkedAt": "2026-11-13T10:18:27.037Z",
       "output": "120"
+    },
+    "tips/algorithms/stable-sorting": {
+      "id": "b-b6e28ee526d34941",
+      "status": "passed",
+      "hash": "21a11a7770fb1e59b51d49422d303675d99b8864a302563e087da34db9946325",
+      "checkedAt": "2026-11-18T01:18:21.260Z",
+      "output": "[('Bob', 80), ('Alice', 90), ('Charlie', 90)]"
     },
     "tips/algorithms/stacks-vs-queues": {
       "id": "b-5d84850719cb45b8",
