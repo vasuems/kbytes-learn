@@ -1,0 +1,4 @@
+Numbers: [1, 2, 3]
+Strings: ["a", "b", "c"]
+Type: [1, 2, 3]
+Type: ["a", "b", "c"]
