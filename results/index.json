@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T06:18:44.524Z",
+  "updatedAt": "2026-11-19T08:18:55.684Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -105,6 +105,13 @@
       "hash": "d47949dea15de712e2a6d889d2efe1ca84f7ce1ea41e569f50f1bcfdfc8e272b",
       "checkedAt": "2026-11-19T06:18:10.593Z",
       "output": "Hello\nObj2"
+    },
+    "tips/kotlin/operator-overloading": {
+      "id": "b-6934ea828998413b",
+      "status": "passed",
+      "hash": "f04d24d51a3b2f06374b68e1881554df2a61fc764fa8e6967d8340d27c2f80df",
+      "checkedAt": "2026-11-19T08:18:26.807Z",
+      "output": "Vector(x=4, y=6)"
     },
     "tips/kotlin/safe-calls-with": {
       "id": "b-93abb590a1234ccd",
