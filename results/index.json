@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T11:55:13.096Z",
+  "updatedAt": "2026-11-19T13:18:48.766Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -296,6 +296,13 @@
       "checkedAt": "2026-11-19T11:18:23.367Z",
       "output": "",
       "message": "Exit code 1\nerror[E0423]: cannot find function `println` in this scope\n --> /tip/main.rs:4:16\n  |\n4 |         100 => println(\"Perfect!\"),\n  |                ^^^^^^^ not found in this scope\n  |\n  = note: a macro named `println` exists in another namespace\nhelp: use `!` to invoke the macro\n  |\n4 |         100 => println!(\"Perfect!\"),\n  |                       +\n\nerror[E0423]: cannot find function `println` in this scope\n --> /tip/main.rs:5:15\n  |\n5 |         90 => println(\"Great!\"),\n  |               ^^^^^^^ not found in this scope\n  |\n  = note: a macro named `println` exists in another namespace\nhelp: use `!` to invoke the macro\n  |\n5 |         90 => println!(\"Great!\"),\n  |                      +\n\nerror[E0423]: cannot find function `println` in this scope\n --> /tip/main.rs:6:14\n  |\n6 |         _ => println(\"Try again!\"),\n  |              ^^^^^^^ not found in this scope\n  |\n  = note: a macro named `println` exists in another namespace\nhelp: use `!` to invoke the macro\n  |\n6 |         _ => println!(\"Try again!\"),\n  |                     +\n\nerror: aborting due to 3 previous errors\n\nFor more information about this error, try `rustc --explain E0423`.\n"
+    },
+    "tips/rust/pattern-matching-a2": {
+      "id": "b-5fea4f6c66b94edd",
+      "status": "passed",
+      "hash": "635f85f5b189dff97ea327a5d11c2e0e1411420f5ad67a339c8e91acfc256e12",
+      "checkedAt": "2026-11-19T13:18:19.138Z",
+      "output": "x is one"
     },
     "tips/rust/result-and-the-operator": {
       "id": "b-537ee9cf83a844c8",
