@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T13:18:48.766Z",
+  "updatedAt": "2026-11-19T19:18:43.573Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -353,6 +353,13 @@
       "hash": "88a3e10d0eb8801af8d1dd59d8dc22f875b6decadefca942db82981feacb9953",
       "checkedAt": "2026-11-17T22:18:30.339Z",
       "output": "John\nJoan"
+    },
+    "tips/sql/primary-keys": {
+      "id": "b-e6cf089a1a634cf1",
+      "status": "passed",
+      "hash": "7fddded4e925c0b3432782cccbaf020dc65320f8a91674e4aeeae79ec7d81601",
+      "checkedAt": "2026-11-19T19:18:16.028Z",
+      "output": "1|John\n2|Jane"
     },
     "tips/sql/select-with-where-a2": {
       "id": "b-ad3407f4a81d481f",
