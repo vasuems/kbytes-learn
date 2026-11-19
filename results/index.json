@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T04:19:13.883Z",
+  "updatedAt": "2026-11-19T06:18:44.524Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -98,6 +98,13 @@
       "hash": "aa42ab9cf3c5ef44434f3670ca47ff88f0315c870fe2f9aa519d7865eeaa05ac",
       "checkedAt": "2026-11-19T04:18:49.379Z",
       "output": "Before initialization\nExpensive setup done\nSetup result\nAfter initialization"
+    },
+    "tips/kotlin/object-expressions": {
+      "id": "b-3dbe74f03e744973",
+      "status": "passed",
+      "hash": "d47949dea15de712e2a6d889d2efe1ca84f7ce1ea41e569f50f1bcfdfc8e272b",
+      "checkedAt": "2026-11-19T06:18:10.593Z",
+      "output": "Hello\nObj2"
     },
     "tips/kotlin/safe-calls-with": {
       "id": "b-93abb590a1234ccd",
