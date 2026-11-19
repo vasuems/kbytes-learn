@@ -1,0 +1,4 @@
+Before initialization
+Expensive setup done
+Setup result
+After initialization
