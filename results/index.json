@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T22:18:48.770Z",
+  "updatedAt": "2026-11-19T01:18:58.026Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -77,6 +77,13 @@
       "hash": "7249631eb4e6f86f2ca4fead5f50195e17b9ef81482cd1ae4b9919ef4c4381b1",
       "checkedAt": "2026-11-14T14:18:18.515Z",
       "output": "true\nUser(name=John, age=30)"
+    },
+    "tips/kotlin/default-and-named-arguments": {
+      "id": "b-89e75f6f5e4343ae",
+      "status": "passed",
+      "hash": "a8dc261b3177bfd9d6f4c8db185b858d1c2389e6e3ea78d734dd2e4fe0b756ef",
+      "checkedAt": "2026-11-19T01:18:14.366Z",
+      "output": "Hello, John!\nHi, Jane!"
     },
     "tips/kotlin/extension-functions": {
       "id": "b-4789e8afb3bb4d00",
