@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T01:18:58.026Z",
+  "updatedAt": "2026-11-19T04:19:13.883Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -91,6 +91,13 @@
       "hash": "767e09eda69e61f42ce7726f9fe1f1a8fad876568738a1f6a961e1e40287b745",
       "checkedAt": "2026-11-15T06:18:09.262Z",
       "output": "Hello World\nKotlin Is Fun"
+    },
+    "tips/kotlin/lazy-initialization": {
+      "id": "b-f904afabc2204de5",
+      "status": "passed",
+      "hash": "aa42ab9cf3c5ef44434f3670ca47ff88f0315c870fe2f9aa519d7865eeaa05ac",
+      "checkedAt": "2026-11-19T04:18:49.379Z",
+      "output": "Before initialization\nExpensive setup done\nSetup result\nAfter initialization"
     },
     "tips/kotlin/safe-calls-with": {
       "id": "b-93abb590a1234ccd",
