@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T15:19:14.219Z",
+  "updatedAt": "2026-11-20T19:19:08.107Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -91,6 +91,13 @@
       "hash": "767e09eda69e61f42ce7726f9fe1f1a8fad876568738a1f6a961e1e40287b745",
       "checkedAt": "2026-11-15T06:18:09.262Z",
       "output": "Hello World\nKotlin Is Fun"
+    },
+    "tips/kotlin/inline-functions-a2": {
+      "id": "b-f62e5c1fea39482c",
+      "status": "passed",
+      "hash": "04776887852ba2d937aee53582d20281488b40635b4209cb21eea75d2f31c856",
+      "checkedAt": "2026-11-20T19:18:37.295Z",
+      "output": "5"
     },
     "tips/kotlin/lazy-initialization": {
       "id": "b-f904afabc2204de5",
