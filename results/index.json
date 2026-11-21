@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T08:19:23.350Z",
+  "updatedAt": "2026-11-21T09:18:59.537Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -29,6 +29,13 @@
       "checkedAt": "2026-11-20T22:18:55.245Z",
       "output": "[1, 2, 3]\n1 2 3",
       "message": "Output differs from expected.txt:\n1 2 3\n1 2 3"
+    },
+    "tips/algorithms/linked-lists-a2": {
+      "id": "b-ea7dac189bb34303",
+      "status": "passed",
+      "hash": "01dd935edc7278b68339056867680c020920aa12cc7cadef0eda47147c070b4e",
+      "checkedAt": "2026-11-21T09:18:28.966Z",
+      "output": "song1\nsong2"
     },
     "tips/algorithms/recursion": {
       "id": "b-a611623efc804f43",
@@ -355,6 +362,13 @@
       "hash": "d5e1e717e27aafad12a66b1640d6f12b6cbfe86f9e2bc494c89eb2aace0dbb7e",
       "checkedAt": "2026-11-15T10:18:09.194Z",
       "output": "length: 5\nlength: 5"
+    },
+    "tips/rust/trait-objects-a2": {
+      "id": "b-6367304e93dc46b8",
+      "status": "passed",
+      "hash": "b038946b87159858821be8b4c545427160d0355e54c825614375c5716c2d3083",
+      "checkedAt": "2026-11-21T09:18:37.099Z",
+      "output": "Circle area\nRectangle area"
     },
     "tips/rust/traits-a2": {
       "id": "b-603effdcd5ab4adc",
