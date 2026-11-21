@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T09:18:59.537Z",
+  "updatedAt": "2026-11-21T11:19:00.608Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -340,6 +340,13 @@
       "hash": "635f85f5b189dff97ea327a5d11c2e0e1411420f5ad67a339c8e91acfc256e12",
       "checkedAt": "2026-11-19T13:18:19.138Z",
       "output": "x is one"
+    },
+    "tips/rust/raw-pointers": {
+      "id": "b-f28dd0cb81d94622",
+      "status": "passed",
+      "hash": "493b9c7a02f5ca81e01cd5605bd4dc5873b302cc67558512de4972d7e629173a",
+      "checkedAt": "2026-11-21T11:18:39.037Z",
+      "output": "Value: 10"
     },
     "tips/rust/result-and-the-operator": {
       "id": "b-537ee9cf83a844c8",
