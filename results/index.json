@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T15:18:47.370Z",
+  "updatedAt": "2026-11-21T16:18:38.208Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -404,6 +404,13 @@
       "hash": "27280960e43a5aa164c4c3edc64906f59c8823ba93175267be68a7d5f7db1347",
       "checkedAt": "2026-11-15T02:18:13.867Z",
       "output": "[1, 2]\n[1, 2, 3]"
+    },
+    "tips/sql/common-table-expressions": {
+      "id": "b-5842f3e653134813",
+      "status": "passed",
+      "hash": "24271a4734705ab36fc6df406b8c698937fb98120057542785b47fc487c450c4",
+      "checkedAt": "2026-11-21T16:18:24.912Z",
+      "output": "2023-10|450"
     },
     "tips/sql/indexes-a2": {
       "id": "b-93c5cd6def924eac",
