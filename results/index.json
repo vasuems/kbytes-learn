@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T14:18:55.569Z",
+  "updatedAt": "2026-11-21T15:18:47.370Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -280,6 +280,13 @@
       "hash": "b6f9cc381305abe38f551af10398f140bfc3fbcf7b69cf93509f2875afd53e98",
       "checkedAt": "2026-11-18T22:18:18.690Z",
       "output": "The length of 'hello' is 5."
+    },
+    "tips/rust/macro-rules": {
+      "id": "b-66903a235bd747b2",
+      "status": "passed",
+      "hash": "e3d5c4391940cc2b9113098ab6c77d7808e051eede992b115951fd15ecdd0981",
+      "checkedAt": "2026-11-21T15:18:23.937Z",
+      "output": "Hello, world!\nHello, world!"
     },
     "tips/rust/match": {
       "id": "b-2809ad2790fd47b3",
