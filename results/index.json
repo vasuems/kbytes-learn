@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T16:18:38.208Z",
+  "updatedAt": "2026-11-21T20:18:51.911Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -142,6 +142,13 @@
       "checkedAt": "2026-11-21T08:18:45.486Z",
       "output": "String\nInteger",
       "message": "Output differs from expected.txt:\nString\nInt"
+    },
+    "tips/kotlin/reified-types-a3": {
+      "id": "b-421d2899a9964d82",
+      "status": "passed",
+      "hash": "e0b4ecdef331333c6318814af7edd9804786e0063403e9fca874c16c058bc61d",
+      "checkedAt": "2026-11-21T20:18:19.271Z",
+      "output": "true\nfalse"
     },
     "tips/kotlin/safe-calls-with": {
       "id": "b-93abb590a1234ccd",
