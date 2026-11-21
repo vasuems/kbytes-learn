@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T22:19:11.243Z",
+  "updatedAt": "2026-11-21T08:19:23.350Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -127,6 +127,14 @@
       "hash": "f04d24d51a3b2f06374b68e1881554df2a61fc764fa8e6967d8340d27c2f80df",
       "checkedAt": "2026-11-19T08:18:26.807Z",
       "output": "Vector(x=4, y=6)"
+    },
+    "tips/kotlin/reified-types-a2": {
+      "id": "b-08a42226869e4c1c",
+      "status": "failed",
+      "hash": "1c25a86451df98486fea8147eeca8d808e1c6d5d7eae476719feed1c7878484c",
+      "checkedAt": "2026-11-21T08:18:45.486Z",
+      "output": "String\nInteger",
+      "message": "Output differs from expected.txt:\nString\nInt"
     },
     "tips/kotlin/safe-calls-with": {
       "id": "b-93abb590a1234ccd",
