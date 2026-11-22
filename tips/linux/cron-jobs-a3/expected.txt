@@ -1,0 +1,2 @@
+0 3 * * * echo 'Daily backup started'
+0 17 * * 1 echo 'Weekly report generated'
