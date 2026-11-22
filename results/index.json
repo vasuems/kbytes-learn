@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T17:19:07.700Z",
+  "updatedAt": "2026-11-22T18:19:01.546Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -106,6 +106,13 @@
       "hash": "767e09eda69e61f42ce7726f9fe1f1a8fad876568738a1f6a961e1e40287b745",
       "checkedAt": "2026-11-15T06:18:09.262Z",
       "output": "Hello World\nKotlin Is Fun"
+    },
+    "tips/kotlin/fold-operations": {
+      "id": "b-99679bd2e636410b",
+      "status": "passed",
+      "hash": "4b95bafd8de19e1ff0285591b94ce1c12a344321469828d6ecd4608ca03445de",
+      "checkedAt": "2026-11-22T18:18:28.449Z",
+      "output": "15\nabc"
     },
     "tips/kotlin/function-composition": {
       "id": "b-87dfc23cb9f84bd2",
