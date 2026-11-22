@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T21:18:42.021Z",
+  "updatedAt": "2026-11-22T22:18:44.799Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -411,6 +411,13 @@
       "hash": "493b9c7a02f5ca81e01cd5605bd4dc5873b302cc67558512de4972d7e629173a",
       "checkedAt": "2026-11-21T11:18:39.037Z",
       "output": "Value: 10"
+    },
+    "tips/rust/recursive-functions": {
+      "id": "b-108c304cef264ee5",
+      "status": "passed",
+      "hash": "d56996d0748d6c3c7c2443fbf1b8cdde6852c8998682cad95fcf8ba1018586fc",
+      "checkedAt": "2026-11-22T22:18:23.511Z",
+      "output": "3...\n2...\n1...\nBlast off!"
     },
     "tips/rust/result-and-the-operator": {
       "id": "b-537ee9cf83a844c8",
