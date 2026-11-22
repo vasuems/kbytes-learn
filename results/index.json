@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T20:18:51.911Z",
+  "updatedAt": "2026-11-22T01:18:42.699Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -229,6 +229,13 @@
       "checkedAt": "2026-11-15T09:18:11.363Z",
       "output": "-rw------- 1 nobody nogroup 12 Nov 15 09:18 note.txt",
       "message": "Output differs from expected.txt:\n-rw------- 1 user user 11 Oct 12 14:30 note.txt"
+    },
+    "tips/linux/system-logging": {
+      "id": "b-978e17baf80548cd",
+      "status": "passed",
+      "hash": "67c41bd63ec73bbc0f1738b382871223a7470bc3c3bb6a5335e787494926680a",
+      "checkedAt": "2026-11-22T01:18:23.737Z",
+      "output": "error: disk full"
     },
     "tips/rust/borrowing": {
       "id": "b-2518f076dce34a97",
