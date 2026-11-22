@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T11:43:12.770Z",
+  "updatedAt": "2026-11-22T12:18:51.265Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -418,6 +418,13 @@
       "hash": "9cc2636566c12aa9243fb7286137d9a3e6fddad0181de52f90ecc5add53fbe46",
       "checkedAt": "2026-11-16T20:18:07.373Z",
       "output": "Book: Rust"
+    },
+    "tips/rust/type-aliasing": {
+      "id": "b-b8da2632d25f4ce0",
+      "status": "passed",
+      "hash": "79d84e17a09577e9ec1e4afadad568104588f8206bf6587699979d36ae921262",
+      "checkedAt": "2026-11-22T12:18:18.446Z",
+      "output": "20 km\nhi"
     },
     "tips/rust/unsafe-functions": {
       "id": "b-446ee597374a40f7",
