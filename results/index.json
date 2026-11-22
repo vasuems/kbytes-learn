@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T07:18:59.775Z",
+  "updatedAt": "2026-11-22T08:18:57.423Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -264,6 +264,13 @@
       "hash": "fc7128488bf89e32a9bdec0c635406942e791baf7ac2fa787340bd4493b19c06",
       "checkedAt": "2026-11-17T22:18:19.218Z",
       "output": "6\n8"
+    },
+    "tips/rust/conditional-compilation": {
+      "id": "b-e997f7bf951e45b5",
+      "status": "passed",
+      "hash": "6000e568498e637e45e3eb457bab0e9e8b68e0cabeacf193b79cd577ceb62ff9",
+      "checkedAt": "2026-11-22T08:18:23.978Z",
+      "output": "Debug mode"
     },
     "tips/rust/error-handling": {
       "id": "b-cf77f2feb6f44447",
