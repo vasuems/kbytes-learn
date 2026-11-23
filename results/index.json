@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T09:18:43.735Z",
+  "updatedAt": "2026-11-23T10:18:51.557Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -106,6 +106,13 @@
       "hash": "767e09eda69e61f42ce7726f9fe1f1a8fad876568738a1f6a961e1e40287b745",
       "checkedAt": "2026-11-15T06:18:09.262Z",
       "output": "Hello World\nKotlin Is Fun"
+    },
+    "tips/kotlin/flatten-collections": {
+      "id": "b-d5a6d3b0b03643d3",
+      "status": "passed",
+      "hash": "ab841330bc16393482ca2b36bf006e1564bca63dd8094ea64b89648ecb260e6d",
+      "checkedAt": "2026-11-23T10:18:20.147Z",
+      "output": "[1, 2, 3, 4]"
     },
     "tips/kotlin/fold-operations": {
       "id": "b-99679bd2e636410b",
