@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T02:19:06.422Z",
+  "updatedAt": "2026-11-23T08:18:27.859Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -524,6 +524,14 @@
       "hash": "2135b23df538a7c7c11cfea8f2d80382e4000c62b9b06e10dada5c3a005d7f89",
       "checkedAt": "2026-11-12T03:50:54.849Z",
       "output": "John|NY"
+    },
+    "tips/sql/self-join-a2": {
+      "id": "b-598b3ca8b7ee4d71",
+      "status": "failed",
+      "hash": "f362459856841221b63001bd3425478e3e7975236a3a69c2186b0bf1188eb228",
+      "checkedAt": "2026-11-23T08:18:14.778Z",
+      "output": "Jane|John",
+      "message": "Output differs from expected.txt:\nJohn|Jane"
     },
     "tips/sql/subqueries-in-select": {
       "id": "b-f11e1b314aba456e",
