@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T14:18:42.092Z",
+  "updatedAt": "2026-11-23T16:18:30.988Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -272,6 +272,13 @@
       "hash": "852a75c8c2a6dae0d845216197eb560120b4643f05f95e0b4f3fd99f236f6f0c",
       "checkedAt": "2026-11-22T16:18:35.433Z",
       "output": "0 3 * * * echo 'Daily backup started'\n0 17 * * 1 echo 'Weekly report generated'"
+    },
+    "tips/linux/environment-variables-a2": {
+      "id": "b-e0bd0393d1f140bd",
+      "status": "passed",
+      "hash": "c275d6189eccb0624e552edabe1ad8d0ca825d3b8b1b245aa200e85d4460582c",
+      "checkedAt": "2026-11-23T16:18:14.448Z",
+      "output": "/home/user"
     },
     "tips/linux/system-logging": {
       "id": "b-978e17baf80548cd",
