@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T22:18:44.799Z",
+  "updatedAt": "2026-11-23T02:19:06.422Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -121,6 +121,13 @@
       "checkedAt": "2026-11-22T17:18:36.489Z",
       "output": "25\n36",
       "message": "Output differs from expected.txt:\n9\n25"
+    },
+    "tips/kotlin/function-composition-a2": {
+      "id": "b-04463e1c937546b6",
+      "status": "passed",
+      "hash": "3d94e6a4c35977e8b93ad6a59ecb8201a39e2bb4373304abddd87989431b344d",
+      "checkedAt": "2026-11-23T02:18:25.361Z",
+      "output": "21\n36"
     },
     "tips/kotlin/higher-order-functions-a2": {
       "id": "b-c70f6a2674f8485b",
@@ -323,6 +330,13 @@
       "checkedAt": "2026-11-18T21:18:15.960Z",
       "output": "",
       "message": "Exit code 1\nerror[E0277]: `T` doesn't implement `Debug`\n  --> /tip/main.rs:11:28\n   |\n11 |     println!(\"Type: {:?}\", vec);\n   |                     ----   ^^^ `T` cannot be formatted using `{:?}` because it doesn't implement `Debug`\n   |                     |\n   |                     required by this formatting parameter\n   |\n   = note: required for `Vec<T>` to implement `Debug`\n   = note: 1 redundant requirement hidden\n   = note: required for `&Vec<T>` to implement `Debug`\nhelp: consider restricting type parameter `T` with trait `Debug`\n   |\n10 | fn print_type<T: std::fmt::Debug>(vec: &Vec<T>) {\n   |                +++++++++++++++++\n\nerror: aborting due to 1 previous error\n\nFor more information about this error, try `rustc --explain E0277`.\n"
+    },
+    "tips/rust/higher-order-functions": {
+      "id": "b-b035572ea9d94a79",
+      "status": "passed",
+      "hash": "77a4976ee3b2744dabcb332a0cc99c2dfb228e77004941f4445626f8f8520836",
+      "checkedAt": "2026-11-23T02:18:40.230Z",
+      "output": "Doubles: [2, 4, 6, 8, 10]\nTriples: [3, 6, 9, 12, 15]"
     },
     "tips/rust/iterators": {
       "id": "b-4311fdb0c3274c94",
