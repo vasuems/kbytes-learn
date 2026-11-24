@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T04:18:36.729Z",
+  "updatedAt": "2026-11-24T07:18:52.092Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -113,6 +113,14 @@
       "hash": "ab841330bc16393482ca2b36bf006e1564bca63dd8094ea64b89648ecb260e6d",
       "checkedAt": "2026-11-23T10:18:20.147Z",
       "output": "[1, 2, 3, 4]"
+    },
+    "tips/kotlin/flow-operators": {
+      "id": "b-1f7a1c32daa44d00",
+      "status": "failed",
+      "hash": "a87cffdb768335c141728dd1a40f1ec3731a52fcf773b9ae2c02bb58804ab093",
+      "checkedAt": "2026-11-24T07:18:19.641Z",
+      "output": "",
+      "message": "Exit code 1\n/tip/main.kt:1:8: error: unresolved reference 'kotlinx'.\nimport kotlinx.coroutines.*\n       ^^^^^^^\n/tip/main.kt:2:8: error: unresolved reference 'kotlinx'.\nimport kotlinx.coroutines.flow.*\n       ^^^^^^^\n/tip/main.kt:5:5: error: unresolved reference 'runBlocking'.\n    runBlocking {\n    ^^^^^^^^^^^\n/tip/main.kt:5:17: error: unresolved reference 'collect'.\n    runBlocking {\n                ^\n/tip/main.kt:6:9: error: unresolved reference 'flow'.\n        flow {\n        ^^^^\n/tip/main.kt:8:17: error: unresolved reference 'emit'.\n                emit(i)\n                ^^^^\n/tip/main.kt:12:10: error: unresolved reference 'collect'.\n        .collect { value -> \n         ^^^^^^^\n/tip/main.kt:12:20: error: cannot infer type for this parameter. Please specify it explicitly.\n        .collect { value -> \n                   ^^^^^\n"
     },
     "tips/kotlin/fold-operations": {
       "id": "b-99679bd2e636410b",
@@ -425,6 +433,14 @@
       "hash": "654b0394dcaa97ce61871a6a3e21021c4411cc2e0bb72170df1127414b58006a",
       "checkedAt": "2026-11-12T03:47:04.976Z",
       "output": "t: hello"
+    },
+    "tips/rust/path-manipulation": {
+      "id": "b-07f7834fffb24c54",
+      "status": "failed",
+      "hash": "ca87ca94d67a1899a16795e0103d6a1276f9bdb8a3da5ad1f615db52f3890c79",
+      "checkedAt": "2026-11-24T07:18:31.495Z",
+      "output": "",
+      "message": "Exit code 1\nerror[E0277]: `OsStr` doesn't implement `std::fmt::Display`\n --> /tip/main.rs:7:31\n  |\n7 |     println!(\"File name: {}\", file_name);\n  |                          --   ^^^^^^^^^ `OsStr` cannot be formatted with the default formatter\n  |                          |\n  |                          required by this formatting parameter\n  |\n  = help: the trait `std::fmt::Display` is not implemented for `OsStr`\n  = note: in format strings you may be able to use `{:?}` (or `{:#?}` for pretty-print) instead\n  = note: required for `&OsStr` to implement `std::fmt::Display`\n\nerror: aborting due to 1 previous error\n\nFor more information about this error, try `rustc --explain E0277`.\n"
     },
     "tips/rust/pattern-matching": {
       "id": "b-50f444285b9e48fa",
