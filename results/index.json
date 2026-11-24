@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T18:18:59.161Z",
+  "updatedAt": "2026-11-24T04:18:36.729Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -279,6 +279,14 @@
       "hash": "c275d6189eccb0624e552edabe1ad8d0ca825d3b8b1b245aa200e85d4460582c",
       "checkedAt": "2026-11-23T16:18:14.448Z",
       "output": "/home/user"
+    },
+    "tips/linux/file-globbing-a2": {
+      "id": "b-6434d9ed09e34cd1",
+      "status": "failed",
+      "hash": "82a4b8d9003c919b30136aae7653380dd4d25e230b5bcefd205c932ab96e64a2",
+      "checkedAt": "2026-11-24T04:18:23.896Z",
+      "output": "*.txt",
+      "message": "Exit code 2\nls: cannot access '*.txt': No such file or directory\n"
     },
     "tips/linux/system-logging": {
       "id": "b-978e17baf80548cd",
