@@ -1,0 +1,3 @@
+Using Cargo to manage dependencies
+Added rand to project
+Added serde to project
