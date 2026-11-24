@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T07:18:52.092Z",
+  "updatedAt": "2026-11-24T11:19:06.212Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -296,6 +296,14 @@
       "output": "*.txt",
       "message": "Exit code 2\nls: cannot access '*.txt': No such file or directory\n"
     },
+    "tips/linux/file-globbing-a3": {
+      "id": "b-916842c7dfc94da5",
+      "status": "failed",
+      "hash": "82a4b8d9003c919b30136aae7653380dd4d25e230b5bcefd205c932ab96e64a2",
+      "checkedAt": "2026-11-24T11:18:45.432Z",
+      "output": "*.txt",
+      "message": "Exit code 2\nls: cannot access '*.txt': No such file or directory\n"
+    },
     "tips/linux/system-logging": {
       "id": "b-978e17baf80548cd",
       "status": "passed",
@@ -557,6 +565,13 @@
       "hash": "24271a4734705ab36fc6df406b8c698937fb98120057542785b47fc487c450c4",
       "checkedAt": "2026-11-21T16:18:24.912Z",
       "output": "2023-10|450"
+    },
+    "tips/sql/index-types-a3": {
+      "id": "b-9edc50abab514d2c",
+      "status": "passed",
+      "hash": "6ccf74d59406e051e08dce12b9e0adb86d454c538f39cf86fa4c6783a1180591",
+      "checkedAt": "2026-11-24T11:18:49.735Z",
+      "output": "1|John"
     },
     "tips/sql/indexes-a2": {
       "id": "b-93c5cd6def924eac",
