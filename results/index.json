@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T22:19:36.795Z",
+  "updatedAt": "2026-11-24T23:18:51.968Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -311,6 +311,13 @@
       "checkedAt": "2026-11-24T11:18:45.432Z",
       "output": "*.txt",
       "message": "Exit code 2\nls: cannot access '*.txt': No such file or directory\n"
+    },
+    "tips/linux/hard-links": {
+      "id": "b-9d8cff3bed8d472c",
+      "status": "passed",
+      "hash": "9eb605d1bdff83cbf449ad4f72c540244ce52f60c6cfddd7d61ce19184f5993e",
+      "checkedAt": "2026-11-24T23:18:26.509Z",
+      "output": "file1 and file2 are the same file\nYes"
     },
     "tips/linux/system-logging": {
       "id": "b-978e17baf80548cd",
