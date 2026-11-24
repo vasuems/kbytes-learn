@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T15:18:48.838Z",
+  "updatedAt": "2026-11-24T17:18:59.802Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -338,6 +338,13 @@
       "hash": "6000e568498e637e45e3eb457bab0e9e8b68e0cabeacf193b79cd577ceb62ff9",
       "checkedAt": "2026-11-22T08:18:23.978Z",
       "output": "Debug mode"
+    },
+    "tips/rust/dependency-management-a2": {
+      "id": "b-bdcad796af0049f5",
+      "status": "passed",
+      "hash": "b58732bf55edc557011e0611ca222f80fa7026f6ce7c634689afe3c61db30cdb",
+      "checkedAt": "2026-11-24T17:18:26.324Z",
+      "output": "Using Cargo to manage dependencies\nAdded rand to project\nAdded serde to project"
     },
     "tips/rust/error-handling": {
       "id": "b-cf77f2feb6f44447",
