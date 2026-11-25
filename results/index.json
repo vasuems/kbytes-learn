@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T05:18:59.494Z",
+  "updatedAt": "2026-11-25T08:19:02.137Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -304,6 +304,13 @@
       "checkedAt": "2026-11-23T16:18:14.448Z",
       "output": "/home/user"
     },
+    "tips/linux/file-descriptors": {
+      "id": "b-29e09585fedb42ab",
+      "status": "passed",
+      "hash": "4ca660fb227e1bf69d12a8febaf4f00725bb985a240d0868b1976309c39d4223",
+      "checkedAt": "2026-11-25T08:18:29.995Z",
+      "output": "Hello\nWorld"
+    },
     "tips/linux/file-globbing-a2": {
       "id": "b-6434d9ed09e34cd1",
       "status": "failed",
@@ -537,6 +544,13 @@
       "hash": "d5e1e717e27aafad12a66b1640d6f12b6cbfe86f9e2bc494c89eb2aace0dbb7e",
       "checkedAt": "2026-11-15T10:18:09.194Z",
       "output": "length: 5\nlength: 5"
+    },
+    "tips/rust/thread-local-storage-a2": {
+      "id": "b-a3bf29bf7f8a4b0c",
+      "status": "passed",
+      "hash": "34b5caf13bd5a686707ea297a210b2a6bf560f6c3ef02d94c52c152a2a885d45",
+      "checkedAt": "2026-11-25T08:18:33.894Z",
+      "output": "main: 1\nthread: 2\nmain: 1"
     },
     "tips/rust/trait-objects-a2": {
       "id": "b-6367304e93dc46b8",
