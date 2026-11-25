@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T23:18:51.968Z",
+  "updatedAt": "2026-11-25T05:18:59.494Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -129,6 +129,14 @@
       "checkedAt": "2026-11-24T22:18:59.714Z",
       "output": "",
       "message": "Exit code 1\n/tip/main.kt:1:8: error: unresolved reference 'kotlinx'.\nimport kotlinx.coroutines.*\n       ^^^^^^^\n/tip/main.kt:2:8: error: unresolved reference 'kotlinx'.\nimport kotlinx.coroutines.flow.*\n       ^^^^^^^\n/tip/main.kt:5:5: error: unresolved reference 'runBlocking'.\n    runBlocking {\n    ^^^^^^^^^^^\n/tip/main.kt:5:17: error: unresolved reference 'collect'.\n    runBlocking {\n                ^\n/tip/main.kt:6:9: error: unresolved reference 'flow'.\n        flow {\n        ^^^^\n/tip/main.kt:6:14: error: unresolved reference 'emit'.\n        flow {\n             ^\n/tip/main.kt:7:13: error: unresolved reference 'emit'.\n            emit(1)\n            ^^^^\n/tip/main.kt:8:13: error: unresolved reference 'emit'.\n            emit(2)\n            ^^^^\n/tip/main.kt:9:13: error: unresolved reference 'emit'.\n            emit(3)\n            ^^^^\n/tip/main.kt:11:19: error: unresolved reference 'it'.\n        .filter { it % 2 == 0 }\n                  ^^\n/tip/main.kt:12:10: error: unresolved reference 'collect'.\n        .collect { println(it) }\n         ^^^^^^^\n/tip/main.kt:12:28: error: unresolved reference 'it'.\n        .collect { println(it) }\n                           ^^\n"
+    },
+    "tips/kotlin/flow-operators-a3": {
+      "id": "b-64b7b4ae7c11431a",
+      "status": "failed",
+      "hash": "7cfeb4422eee6448c770a325d316a0bb44757060b9769926bdbe67b349df5715",
+      "checkedAt": "2026-11-25T05:18:24.777Z",
+      "output": "",
+      "message": "Exit code 1\n/tip/main.kt:1:8: error: unresolved reference 'kotlinx'.\nimport kotlinx.coroutines.*\n       ^^^^^^^\n/tip/main.kt:2:8: error: unresolved reference 'kotlinx'.\nimport kotlinx.coroutines.flow.*\n       ^^^^^^^\n/tip/main.kt:5:5: error: unresolved reference 'runBlocking'.\n    runBlocking {\n    ^^^^^^^^^^^\n/tip/main.kt:5:17: error: unresolved reference 'collect'.\n    runBlocking {\n                ^\n/tip/main.kt:6:9: error: unresolved reference 'flow'.\n        flow {\n        ^^^^\n/tip/main.kt:6:14: error: unresolved reference 'emit'.\n        flow {\n             ^\n/tip/main.kt:7:13: error: unresolved reference 'emit'.\n            emit(1)\n            ^^^^\n/tip/main.kt:8:13: error: unresolved reference 'emit'.\n            emit(2)\n            ^^^^\n/tip/main.kt:9:13: error: unresolved reference 'emit'.\n            emit(3)\n            ^^^^\n/tip/main.kt:10:13: error: unresolved reference 'emit'.\n            emit(4)\n            ^^^^\n/tip/main.kt:12:19: error: unresolved reference 'it'.\n        .filter { it % 2 == 0 }\n                  ^^\n/tip/main.kt:13:10: error: unresolved reference 'collect'.\n        .collect { println(it) }\n         ^^^^^^^\n/tip/main.kt:13:28: error: unresolved reference 'it'.\n        .collect { println(it) }\n                           ^^\n"
     },
     "tips/kotlin/fold-operations": {
       "id": "b-99679bd2e636410b",
