@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T08:19:02.137Z",
+  "updatedAt": "2026-11-25T09:18:57.286Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -616,6 +616,14 @@
       "hash": "24271a4734705ab36fc6df406b8c698937fb98120057542785b47fc487c450c4",
       "checkedAt": "2026-11-21T16:18:24.912Z",
       "output": "2023-10|450"
+    },
+    "tips/sql/database-views-a2": {
+      "id": "b-826a8d68bb2040ab",
+      "status": "failed",
+      "hash": "622b2db21ff2fc13c85560eb94b02caf9c1a4f9d8e5259b6a06190835fb95b9f",
+      "checkedAt": "2026-11-25T09:18:31.357Z",
+      "output": "300",
+      "message": "Output differs from expected.txt:\n300.00"
     },
     "tips/sql/index-types-a3": {
       "id": "b-9edc50abab514d2c",
