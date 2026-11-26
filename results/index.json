@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T18:18:32.829Z",
+  "updatedAt": "2026-11-26T20:18:52.559Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -394,6 +394,14 @@
       "hash": "67c41bd63ec73bbc0f1738b382871223a7470bc3c3bb6a5335e787494926680a",
       "checkedAt": "2026-11-22T01:18:23.737Z",
       "output": "error: disk full"
+    },
+    "tips/rust/atomic-operations": {
+      "id": "b-4535d7d5286e422a",
+      "status": "failed",
+      "hash": "ba8f6ae664008db67a190f074d0fb7890b55b0c8f924943af5b8b64433d1e0e4",
+      "checkedAt": "2026-11-26T20:18:29.160Z",
+      "output": "",
+      "message": "Exit code 1\nerror: mismatched closing delimiter: `)`\n --> /tip/main.rs:1:24\n  |\n1 | use std::sync::atomic::{AtomicUsize, Ordering);\n  |                        ^ unclosed delimiter  ^ mismatched closing delimiter\n\nerror: aborting due to 1 previous error\n\n"
     },
     "tips/rust/borrowing": {
       "id": "b-2518f076dce34a97",
