@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T09:19:07.233Z",
+  "updatedAt": "2026-11-26T11:19:00.096Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -268,6 +268,14 @@
       "checkedAt": "2026-11-26T09:18:28.512Z",
       "output": "",
       "message": "Exit code 1\n/tip/main.kt:1:8: error: unresolved reference 'kotlinx'.\nimport kotlinx.coroutines.*\n       ^^^^^^^\n/tip/main.kt:2:8: error: unresolved reference 'kotlinx'.\nimport kotlinx.coroutines.flow.*\n       ^^^^^^^\n/tip/main.kt:4:14: error: unresolved reference 'runBlocking'.\nfun main() = runBlocking {\n             ^^^^^^^^^^^\n/tip/main.kt:4:26: error: unresolved reference 'delay'.\nfun main() = runBlocking {\n                         ^\n/tip/main.kt:5:22: error: unresolved reference 'MutableSharedFlow'.\n    val sharedFlow = MutableSharedFlow<Int>()\n                     ^^^^^^^^^^^^^^^^^\n/tip/main.kt:6:5: error: unresolved reference 'launch'.\n    launch { \n    ^^^^^^\n/tip/main.kt:9:13: error: unresolved reference 'delay'.\n            delay(100)\n            ^^^^^\n/tip/main.kt:12:5: error: unresolved reference 'launch'.\n    launch {\n    ^^^^^^\n/tip/main.kt:12:12: error: unresolved reference 'collect'.\n    launch {\n           ^\n/tip/main.kt:13:30: error: cannot infer type for this parameter. Please specify it explicitly.\n        sharedFlow.collect { value -> println(value) }\n                             ^^^^^\n/tip/main.kt:15:5: error: unresolved reference 'delay'.\n    delay(1000)\n    ^^^^^\n"
+    },
+    "tips/kotlin/shared-flow-a3": {
+      "id": "b-5b53c270154d47e7",
+      "status": "failed",
+      "hash": "02138339b949972967d5a6a8b1abf383afeff695e6a44704427a0df39d27916e",
+      "checkedAt": "2026-11-26T11:18:27.800Z",
+      "output": "",
+      "message": "Exit code 1\n/tip/main.kt:1:8: error: unresolved reference 'kotlinx'.\nimport kotlinx.coroutines.*\n       ^^^^^^^\n/tip/main.kt:2:8: error: unresolved reference 'kotlinx'.\nimport kotlinx.coroutines.flow.*\n       ^^^^^^^\n/tip/main.kt:5:17: error: unresolved reference 'CoroutineScope'.\n    val scope = CoroutineScope(Dispatchers.Default)\n                ^^^^^^^^^^^^^^\n/tip/main.kt:5:32: error: unresolved reference 'Dispatchers'.\n    val scope = CoroutineScope(Dispatchers.Default)\n                               ^^^^^^^^^^^\n/tip/main.kt:6:22: error: unresolved reference 'MutableSharedFlow'.\n    val sharedFlow = MutableSharedFlow<Int>()\n                     ^^^^^^^^^^^^^^^^^\n/tip/main.kt:8:18: error: unresolved reference 'collect'.\n    scope.launch {\n                 ^\n/tip/main.kt:9:30: error: cannot infer type for this parameter. Please specify it explicitly.\n        sharedFlow.collect { value -> println(\"Collector 1: $value\") }\n                             ^^^^^\n/tip/main.kt:11:18: error: unresolved reference 'collect'.\n    scope.launch {\n                 ^\n/tip/main.kt:12:30: error: cannot infer type for this parameter. Please specify it explicitly.\n        sharedFlow.collect { value -> println(\"Collector 2: $value\") }\n                             ^^^^^\n/tip/main.kt:15:18: error: unresolved reference 'emit'.\n    scope.launch {\n                 ^\n"
     },
     "tips/kotlin/string-templates": {
       "id": "b-772f0429f3d34026",
