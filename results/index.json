@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T12:54:54.391Z",
+  "updatedAt": "2026-11-26T17:18:52.495Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -20,6 +20,14 @@
       "status": "failed",
       "hash": "2ebd262c4f58eb84433822e7ffb698b7b49372f472027b47f5434bf1aefc3f24",
       "checkedAt": "2026-11-26T07:19:21.085Z",
+      "output": "[[0, 5, 8, 9], [inf, 0, 3, 4], [inf, inf, 0, 1], [inf, inf, inf, 0]]",
+      "message": "Output differs from expected.txt:\n[[0, 5, 8, 9], [float('inf'), 0, 3, 4], [float('inf'), float('inf'), 0, 1], [float('inf'), float('inf'), float('inf'), 0]]"
+    },
+    "tips/algorithms/floyd-warshall-algorithm-a2": {
+      "id": "b-135f6edc9d444ab9",
+      "status": "failed",
+      "hash": "2ebd262c4f58eb84433822e7ffb698b7b49372f472027b47f5434bf1aefc3f24",
+      "checkedAt": "2026-11-26T17:18:35.287Z",
       "output": "[[0, 5, 8, 9], [inf, 0, 3, 4], [inf, inf, 0, 1], [inf, inf, inf, 0]]",
       "message": "Output differs from expected.txt:\n[[0, 5, 8, 9], [float('inf'), 0, 3, 4], [float('inf'), float('inf'), 0, 1], [float('inf'), float('inf'), float('inf'), 0]]"
     },
