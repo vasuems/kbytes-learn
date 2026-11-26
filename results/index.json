@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T17:18:52.495Z",
+  "updatedAt": "2026-11-26T18:18:32.829Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -59,6 +59,13 @@
       "hash": "01dd935edc7278b68339056867680c020920aa12cc7cadef0eda47147c070b4e",
       "checkedAt": "2026-11-21T09:18:28.966Z",
       "output": "song1\nsong2"
+    },
+    "tips/algorithms/longest-common-substring": {
+      "id": "b-1ec5a0ae1b6b421c",
+      "status": "passed",
+      "hash": "b83b2ea4207d22fb0e0fc1730de8930bef4aa657eeeebec5c473abcfd4e6d9f1",
+      "checkedAt": "2026-11-26T18:18:19.128Z",
+      "output": "bcd"
     },
     "tips/algorithms/recursion": {
       "id": "b-a611623efc804f43",
