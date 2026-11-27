@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T22:19:17.315Z",
+  "updatedAt": "2026-11-27T06:19:01.696Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -453,6 +453,13 @@
       "hash": "6000e568498e637e45e3eb457bab0e9e8b68e0cabeacf193b79cd577ceb62ff9",
       "checkedAt": "2026-11-22T08:18:23.978Z",
       "output": "Debug mode"
+    },
+    "tips/rust/deadlock-detection-a2": {
+      "id": "b-5ef71d6d9c194fd5",
+      "status": "passed",
+      "hash": "13419d81b0a4c7944563a3cdb63f0117e09aa19eec5c22a9f8c7215cf2eae199",
+      "checkedAt": "2026-11-27T06:18:28.623Z",
+      "output": "No deadlock detected"
     },
     "tips/rust/dependency-management-a2": {
       "id": "b-bdcad796af0049f5",
