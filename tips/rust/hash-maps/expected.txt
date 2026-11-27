@@ -1,0 +1,2 @@
+John's age: 25
+Alice's age: 30
