@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T18:18:42.396Z",
+  "updatedAt": "2026-11-27T22:18:55.735Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -495,6 +495,13 @@
       "hash": "7fd6a4154ebd4aaa6e0cf79a77d381d0c5948cb37d521165b2381b5bddf88ab8",
       "checkedAt": "2026-11-17T06:18:17.349Z",
       "output": "Result: 5\nError: Cannot divide by zero!"
+    },
+    "tips/rust/file-input-output": {
+      "id": "b-572638281a5d445a",
+      "status": "passed",
+      "hash": "1fd7888a831c57315877c8500b4ab4683c60db14e5550e12d43be291f130a836",
+      "checkedAt": "2026-11-27T22:18:33.780Z",
+      "output": "Hello, world!"
     },
     "tips/rust/function-pointers": {
       "id": "b-c378de6348854049",
