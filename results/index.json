@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T07:18:50.675Z",
+  "updatedAt": "2026-11-27T12:18:44.033Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -95,6 +95,13 @@
       "hash": "b2ecb7acb6986f7438a4666b2befd5d0542e9335145bdd0ce52bd258e1a40898",
       "checkedAt": "2026-11-13T18:18:40.198Z",
       "output": "c\nb\nx\ny"
+    },
+    "tips/algorithms/suffix-tree-construction-a3": {
+      "id": "b-65342a72fb344aed",
+      "status": "passed",
+      "hash": "1c2baba623d896a6b8346a4fce099d0d402be039885820d113400330f9665787",
+      "checkedAt": "2026-11-27T12:18:25.564Z",
+      "output": "['banana', 'anana', 'nana', 'ana', 'na', 'a']"
     },
     "tips/algorithms/the-two-pointer-technique": {
       "id": "b-cb61d3fd510a4b21",
