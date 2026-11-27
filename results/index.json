@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T06:19:01.696Z",
+  "updatedAt": "2026-11-27T07:18:50.675Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -425,6 +425,13 @@
       "hash": "0509f8b14f67f9ed717fbcc7a3f1571a0ebf75e4a06836d646b2e7943000c528",
       "checkedAt": "2026-11-26T22:18:49.316Z",
       "output": "Updated value: 20"
+    },
+    "tips/rust/bit-manipulation": {
+      "id": "b-11a9b911f09b40e3",
+      "status": "passed",
+      "hash": "47244a2344a180772d295b3a4cd3ed2f0cfb9e7889574b59e45f2c1ce1bece97",
+      "checkedAt": "2026-11-27T07:18:25.339Z",
+      "output": "num: 5\nnum with bit set: 7"
     },
     "tips/rust/borrowing": {
       "id": "b-2518f076dce34a97",
