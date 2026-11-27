@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T12:49:49.769Z",
+  "updatedAt": "2026-11-27T17:18:59.273Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -511,6 +511,13 @@
       "checkedAt": "2026-11-18T21:18:15.960Z",
       "output": "",
       "message": "Exit code 1\nerror[E0277]: `T` doesn't implement `Debug`\n  --> /tip/main.rs:11:28\n   |\n11 |     println!(\"Type: {:?}\", vec);\n   |                     ----   ^^^ `T` cannot be formatted using `{:?}` because it doesn't implement `Debug`\n   |                     |\n   |                     required by this formatting parameter\n   |\n   = note: required for `Vec<T>` to implement `Debug`\n   = note: 1 redundant requirement hidden\n   = note: required for `&Vec<T>` to implement `Debug`\nhelp: consider restricting type parameter `T` with trait `Debug`\n   |\n10 | fn print_type<T: std::fmt::Debug>(vec: &Vec<T>) {\n   |                +++++++++++++++++\n\nerror: aborting due to 1 previous error\n\nFor more information about this error, try `rustc --explain E0277`.\n"
+    },
+    "tips/rust/hash-maps": {
+      "id": "b-e3fde8c3580a4917",
+      "status": "passed",
+      "hash": "4d88da8625b83e03e7ec2195f8218c82b7ea5f9876bef1a922e893fe237adfac",
+      "checkedAt": "2026-11-27T17:18:41.099Z",
+      "output": "John's age: 25\nAlice's age: 30"
     },
     "tips/rust/higher-order-functions": {
       "id": "b-b035572ea9d94a79",
