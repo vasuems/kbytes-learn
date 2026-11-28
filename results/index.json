@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T06:18:42.048Z",
+  "updatedAt": "2026-11-28T11:19:37.575Z",
   "tips": {
     "tips/algorithms/big-o-notation": {
       "id": "b-fa82820c68f54047",
@@ -758,6 +758,14 @@
       "hash": "24271a4734705ab36fc6df406b8c698937fb98120057542785b47fc487c450c4",
       "checkedAt": "2026-11-21T16:18:24.912Z",
       "output": "2023-10|450"
+    },
+    "tips/sql/data-typing": {
+      "id": "b-915dfd5bc5d44d85",
+      "status": "failed",
+      "hash": "aa7228ddb5b93042c43b0d41c06219cefca57578951da81e0d72416ceaf8d6f1",
+      "checkedAt": "2026-11-28T11:19:20.532Z",
+      "output": "",
+      "message": "Exit code 1\nIncomplete SQL statement at the end: CREATE TABLE users (id INTEGER, name TEXT, age INTEGER)\nINSERT INTO users VALUES\n"
     },
     "tips/sql/database-views-a2": {
       "id": "b-826a8d68bb2040ab",
